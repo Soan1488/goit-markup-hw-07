@@ -1,13 +1,3 @@
-.clients-section__title {
-    margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-}
-
 .clients-list {
     display: flex;
 }
@@ -36,7 +26,7 @@
         }
 }
 
-.clients-list__items {
+.clients-list__item {
     display: flex;
     align-items: center;
     justify-content: center;

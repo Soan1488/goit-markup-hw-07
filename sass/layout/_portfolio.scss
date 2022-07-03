@@ -23,7 +23,7 @@
         }
 }
 
-.cards-list__items {
+.cards-list__item {
     background-color: var(--primary-background-color);
     display: flex;
     &:not(:nth-last-child(-n + 3)) {
@@ -65,7 +65,7 @@
     flex-wrap: wrap;
 }
 
-.cards-list__text {
+.cards-list__box {
     padding: 20px 24px;
     border: 1px solid #eeeeee;
     border-top: none;

@@ -20,7 +20,7 @@
     justify-content: center;
 }
 
-.skils-list__items {
+.skils-list__item {
     flex-basis: calc((100% - 120px)/4);
     &:not(:last-child) {
             margin-right: 30px;
@@ -36,7 +36,4 @@
     padding-bottom: 25px;
     background-color: rgba(245, 244, 250, 1);
     border-radius: 4px;
-}
-.main__skils {
-    padding-top: 94px;
 }

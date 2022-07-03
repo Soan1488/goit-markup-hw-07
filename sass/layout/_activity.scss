@@ -1,18 +1,8 @@
-.activity__title {
-    margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-}
-
 .activity-list {
     display: flex;
 }
 
-.activity-list__items {
+.activity-list__item {
     flex-basis: calc((100% - 90px)/3);
     position: relative;
     &:not(:last-child) {
@@ -40,4 +30,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+.section--no-padding-top {
+    padding-top: 0;
 }

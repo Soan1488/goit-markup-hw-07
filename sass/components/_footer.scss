@@ -26,12 +26,11 @@
     font-style: normal;
 }
 
-.tell-link,
-.email-link {
+.address-list__link--other-color {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.address-list__items:not(:last-child) {
+.address-list__item:not(:last-child) {
     margin-bottom: 9px;
 }
 
@@ -59,7 +58,7 @@
     display: flex;
 }
 
-.join-list__items:not(:last-child) {
+.join-list__item:not(:last-child) {
     margin-right: 10px;
 }
 
